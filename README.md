@@ -1,6 +1,6 @@
 # 4-bit Counter with Synchronous reset
 
-Counts from 0 to 15 (0 to 1111) at each clock cycle and at positive edge of the clock. In this case, the clock goes to 0 to 1 at each time unit(1ns).
+Counts from 0 to 15 (0 to 1111) at each clock cycle and at the positive edge of the clock. In this case, the clock goes from 0 to 1 at each time unit (1, 3, 5, 7 and so on)
 
 Once the count reaches the MAX_VALUE(1111 or 15) it resets back to 0.
 
